@@ -94,6 +94,16 @@ nav a:hover {
         transform: translateX(0%);
     }
 }
+.slider {
+    display: flex;
+    width: 100%; /* Ubah ukuran sesuai kebutuhan */
+    animation: slide 10s linear infinite;
+}
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
 .hero h2 {
     font-size: 48px;
     margin-bottom: 20px;
