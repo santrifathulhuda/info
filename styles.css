@@ -97,7 +97,7 @@ nav a:hover {
 }
 .slider {
     display: flex;
-    width: 100%; /* Ubah ukuran sesuai kebutuhan */
+    width: 300%; /* Ubah ukuran sesuai kebutuhan */
     animation: slide 10s linear infinite;
 }
 .slide img {
@@ -106,7 +106,6 @@ nav a:hover {
 }
 
 .hero h2 {
-    font-size: 24px;
     margin-bottom: 20px;
     color: #333;
     position: absolute;
