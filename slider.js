@@ -1,9 +1,9 @@
 const slider = document.querySelector('.slider');
 
-slider.addEventListener('mouseenter', () => {
+slider.addEventListener('next', () => {
     slider.style.animationPlayState = 'paused';
 });
 
-slider.addEventListener('mouseleave', () => {
+slider.addEventListener('next', () => {
     slider.style.animationPlayState = 'running';
 });
