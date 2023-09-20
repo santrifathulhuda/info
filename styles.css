@@ -71,12 +71,12 @@ nav a:hover {
 .slider {
     display: flex;
     width: 300%; /* Total lebar slider adalah 300% dari lebar container */
-    animation: slide 10s linear infinite; /* Animasi slide selama 10 detik */
+    animation: slide 30s infinite; /* Animasi slide selama 10 detik */
 }
 
 .slide {
     flex: 1;
-    min-width: 100%;
+    min-width: 300%;
     transition: transform 1s ease;
 }
 
@@ -101,7 +101,7 @@ nav a:hover {
     animation: slide 10s linear infinite;
 }
 .slide img {
-    max-width: 100%;
+    max-width: 300%;
     height: auto;
 }
 
