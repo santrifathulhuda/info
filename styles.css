@@ -68,43 +68,6 @@ nav a:hover {
     text-align: center;
 }
 
-.slider {
-    display: flex;
-    width: 300%; /* Total lebar slider adalah 300% dari lebar container */
-    animation: slide 30s infinite; /* Animasi slide selama 10 detik */
-}
-
-.slide {
-    flex: 1;
-    min-width: 300%;
-    transition: transform 1s ease;
-}
-
-/* Animasi slide */
-@keyframes slide {
-    0% {
-        transform: translateX(0%);
-    }
-    33.33% {
-        transform: translateX(-100%);
-    }
-    66.67% {
-        transform: translateX(-200%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
-}
-.slider {
-    display: flex;
-    width: 300%; /* Ubah ukuran sesuai kebutuhan */
-    animation: slide 10s linear infinite;
-}
-.slide img {
-    max-width: 300%;
-    height: auto;
-}
-
 .hero h2 {
     margin-bottom: 20px;
     color: #333;
